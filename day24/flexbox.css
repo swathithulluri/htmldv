@@ -1,0 +1,7 @@
+.parent{
+    background-color: black;
+     display: flex; 
+    color: azure;
+    flex-direction: column-reverse;
+    justify-content: center;
+}

@@ -1,0 +1,51 @@
+/* button{
+    background-color: black;
+    color: beige;
+    margin:12px ;
+    padding: 12px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    transition-delay: 330ms;
+}
+button:hover{
+    background-color: blue;
+    color: aquamarine;
+    cursor: pointer;
+} */
+body{
+    background-color: brown;
+}
+.box{
+    background-color: aquamarine;
+    height: 80vh;
+    width:80vh ;
+} 
+.circle{
+    height: 80px;
+    width: 80px;
+    background-color:black;
+    border-radius: 50%;
+}
+.circle:hover{
+    animation: startmoving 5s ease-in forwards;
+}
+@keyframes startmoving {
+    25%{
+        transform: translate(400px,0px);
+        background-color: blueviolet;
+    }
+    50%{
+        transition:translate(500px,300px) ;
+        background-color: yellow;
+
+    }
+    75%{
+        transition:translate(0,300px) ;
+        background-color: azure;
+    }
+    80%{
+        transition:translate(0,0) ;
+        background-color: green;
+    }
+
+}

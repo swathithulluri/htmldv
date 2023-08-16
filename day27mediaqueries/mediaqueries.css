@@ -1,0 +1,30 @@
+/*syntax
+
+ @media only screen and (max-width:450px){
+    <  the style will be reflected only when the screen size <=450px;    >>
+    h3{
+
+    }
+    p{
+
+    }
+} */
+@media only screen and (max-width:800px){
+    h3{
+        color: blue;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:450px){
+    h3{
+        color: red;
+        font-size: 50px;
+    }
+}
+@media only screen and (min-width:450px){
+    /* <  the style will be reflected only when the screen size >=450px;    >> */
+    h3{
+        color: rgb(0, 255, 8);
+        font-size: 50px;
+    }
+}

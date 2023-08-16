@@ -1,0 +1,22 @@
+
+.staticdefult{
+    background-color: brown;
+    position: static;
+    border: 1px solid black;
+    top: 40px;
+    right: 60px;
+} 
+.relative{
+    background-color:yellow;
+    position:relative;
+    border: 1px solid red;
+    top: 40px;
+    left: 20px;
+}
+.shape1{
+    background-color:black;
+    position: sticky;
+    border: 1px solid blanchedalmond;
+    top: 40px;
+    left: 20px;
+}
